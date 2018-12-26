@@ -1,16 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Kmw" />
-    <meta name="description" content="welcome to my kakao clone" />
-    <title>this is my title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
+"
+    />
+    <title>Friends</title>
   </head>
   <body>
-    <h1>This is my big title</h1>
-    <section>This is an important section</section>
-    <div>Whatever</div>
-    <span>something else</span>
-    <h6>This is my small title</h6>
+    <header>
+      <div class="header__top">
+        <div class="header__column">
+          <i class="fa fa-plane"></i> <i class="fa fa-wifi"></i>
+        </div>
+        <div class="header__column">
+          <span class="header__time">18:38 </span>
+        </div>
+        <div class="header__column">
+          <i class="fa fa-moon-o"></i> <i class="fa fa-bluetooth-b"></i>
+          <span calss="header__battery"
+            >66% <i class="fa fa-battery-full"></i>
+          </span>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__column">
+          <span class="header__text">Manage</span>
+        </div>
+        <div class="header__column">
+          <span class="header__text"
+            >Friends <span class="header__number"> 1</span></span
+          >
+        </div>
+        <div class="header__column"></div>
+        <i class="fa fa-cog fa-lg"></i>
+      </div>
+    </header>
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar__tab">
+        <i class="fa fa-user"></i><span class="tab-bar__title">Friends</span>
+      </a>
+      <a href="chats.html" class="tab-bar__tab">
+        <i class="fa fa-comment"></i><span class="tab-bar__title">Chats</span>
+      </a>
+      <a href="find.html" class="tab-bar__tab">
+        <i class="fa fa-search"></i><span class="tab-bar__title">Find</span>
+      </a>
+      <a href="more.html" class="tab-bar__tab">
+        <i class="fa fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
+      </a>
+    </nav>
   </body>
 </html>
